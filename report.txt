@@ -1,3 +1,8 @@
+Training ConvNet on MNIST Data Through GitHub Codespaces
+
+Thomas Thomasson
+23 October 2026
+
 Introduction:
 
 The purpose of this assignment was to learn to program AI/ML models within an environment other than Google Colab.
