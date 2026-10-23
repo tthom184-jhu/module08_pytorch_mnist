@@ -1,0 +1,45 @@
+Introduction:
+
+The purpose of this assignment was to learn to program AI/ML models within an environment other than Google Colab.
+This assignment utilized previous lecture code to be transformed into a Python file and called from a separate Python file.
+The technology stack used in this assignment is Git, GitHub, and Visual Studio Code through GitHub Codespaces.
+Codespaces allows developers to code from a web hosted version of the Visual Studio Code IDE. 
+The finished product within this assignment is a clonable and runable GitHub repository.
+
+
+Models/Methods:
+
+This assignment trained a ConvNet model on MNIST data to learn about various software tools.
+The ConvNet model uses user input number of epochs, learning rate, and batch size.
+The ConvNet model was constructed such that the first layer grows from 1 input channel to 32 output channels, then 32 input to 64 output, all with BatchNorm2D, ReLU, and MaxPool2d in between the two sequentials.
+The plotting function from the assignment description was used, but extended upon, due to its lack of axis labels and the lack of the second included subfigure.
+The model tracks its loss and accuracy throughout the training epochs, and reports its results in a figure once training concludes.
+
+
+Report/Discussion:
+
+This assignment focused more on the ability to generate a usable repository on GitHub than it did in verifying and optimizing a high performance model.
+The repository was ran with and without default conditions and it ran through as expected.
+A requirements.txt was included to help users know which packages should be installed into their Python environment in order to use this codebase.
+With respect to model performance, the results resemble those that the lecture code would generate given these parameters, as well as the results from module 7's assignment that used LeNet instead of ConvNet.
+A .gitignore file is included in the commit of this assignment in order to keep the repository clean of all system metadata that was generated during the execution and building of the Python scripts, as well as other files that the developer does not want to share.
+
+
+Conclusion:
+
+In conclusion, this assignment created a GitHub repository that can be cloned and run by anyone.
+The repository employs a user modifiable ConvNet trained on MNIST data.
+The file to run the model takes user input for the number of epochs, batch size, and learning rate to be used in the model.
+After training, the model outputs its loss and accuracy per epoch in a saved figure.
+This assignment explored how to use multiple different tools to create a python script that takes in human inputs and outputs model results.
+
+Pros:
+ - This assignment provided the ability to use and learn about a tool I have not explored up until this point: GitHub Codespaces.
+
+Cons:
+ - Codespaces is not hooked up with a GPU, so more intensive AI/ML tasking may not be able to be completed within this environmenet.
+   This is where the real download of VS Code would prove beneficial.
+
+Future Considerations:
+ - This assignment can be taken a step further, in which students download Visual Studio Code, but have to create their own python environment using Anaconda or a similar tool.
+   This would help people learn conda, as well as how to set up their own python environment from scratch.
